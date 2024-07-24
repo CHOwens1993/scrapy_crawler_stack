@@ -28,6 +28,7 @@ class MongoDBPipeline(object):
     Args:
         object (_type_): _description_
     """
+    #test change for branch creation
     def __init__(self):
         settings = get_project_settings()
         connection = pymongo.MongoClient(
