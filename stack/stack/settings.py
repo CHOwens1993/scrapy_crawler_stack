@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = "stack.spiders"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = "stack (+http://www.yourdomain.com)"
-
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.36 Safari/535.7'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
@@ -102,3 +102,4 @@ MONGODB_SERVER = "localhost"
 MONGODB_PORT = 27017
 MONGODB_DB = "stackoverflow"
 MONGODB_COLLECTION = "questions"
+DOWNLOAD_DELAY = 5
